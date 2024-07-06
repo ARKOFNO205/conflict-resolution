@@ -198,3 +198,25 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav 
+    {
+      flex-direction: column;
+    }
+    /* Make the sidebar stack below the body */
+    aside {
+      order: 2;
+    }
+    /* Change the header background */
+    header {
+      background: #147746;
+    }
+    /* Change the navbar and footer background */
+    nav,
+    footer {
+      background-color: #bb8588;
+    }
+}
