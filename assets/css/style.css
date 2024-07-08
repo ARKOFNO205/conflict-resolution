@@ -162,7 +162,8 @@ p {
 }
 
 .search-engine-optimization img {
-    max-height: 200px;
+    max-height: 20px;
+    width: 20px;
 }
 
 .online-reputation-management img {
